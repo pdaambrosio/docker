@@ -1,0 +1,94 @@
+version: '3.6'
+services:
+  zookeeper01:
+    image: zookeeper:3.5
+    hostname: zookeeper01
+    container_name: zookeeper01
+    ports:
+     - 2181:2181
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=zookeeper02:2888:3888;2181 server.3=zookeeper03:2888:3888;2181
+    networks:
+     - elk-net
+
+  zookeeper02:
+    image: zookeeper:3.5
+    hostname: zookeeper02
+    container_name: zookeeper02
+    ports:
+     - 2182:2181
+    environment:
+      ZOO_MY_ID: 2
+      ZOO_SERVERS: server.1=zookeeper01:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=zookeeper03:2888:3888;2181
+    networks:
+     - elk-net
+
+  zookeeper03:
+    image: zookeeper:3.5
+    hostname: zookeeper03
+    container_name: zookeeper03
+    ports:
+     - 2183:2181
+    environment:
+      ZOO_MY_ID: 3
+      ZOO_SERVERS: server.1=zookeeper01:2888:3888;2181 server.2=zookeeper02:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181
+    networks:
+     - elk-net
+
+  kafka01:
+    image: wurstmeister/kafka
+    ports:
+      - 9092:9092
+    hostname: kafka01
+    container_name: kafka01
+    depends_on:
+      - zookeeper01
+      - zookeeper02
+      - zookeeper03
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper01:2181,zookeeper02:2182,zookeeper03:2183
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka01:9092
+      KAFKA_LISTENERS: PLAINTEXT://kafka01:9092
+    networks:
+     - elk-net
+
+  kafka02:
+    image: wurstmeister/kafka
+    ports:
+      - 9093:9092
+    hostname: kafka02
+    container_name: kafka02
+    depends_on:
+      - zookeeper01
+      - zookeeper02
+      - zookeeper03
+    environment:
+      KAFKA_BROKER_ID: 2
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper01:2181,zookeeper02:2182,zookeeper03:2183
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka02:9092
+      KAFKA_LISTENERS: PLAINTEXT://kafka02:9092
+    networks:
+      - elk-net
+
+  kafka03:
+    image: wurstmeister/kafka
+    ports:
+      - 9094:9092
+    hostname: kafka03
+    container_name: kafka03
+    depends_on:
+      - zookeeper01
+      - zookeeper02
+      - zookeeper03
+    environment:
+      KAFKA_BROKER_ID: 3
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper01:2181,zookeeper02:2182,zookeeper03:2183
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka03:9092
+      KAFKA_LISTENERS: PLAINTEXT://kafka03:9092
+    networks:
+      - elk-net
+
+networks:
+ elk-net:

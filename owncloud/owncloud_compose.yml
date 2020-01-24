@@ -1,0 +1,31 @@
+version: "3.6"
+services: 
+  bd01:
+    image: mysql:8.0
+    container_name: sql01
+    user: mysql
+    environment:
+     - MYSQL_ROOT_PASSWORD=SQL01@bd01
+    volumes:
+     - mysql_data:/var/lib/mysql
+     - "/etc/localtime:/etc/localtime:ro"
+    networks:
+     - elk-net
+
+  cloud:
+    image: owncloud:10
+    container_name: cloud01
+    depends_on: ['bd01']
+    ports:
+     - 9090:80 
+    volumes:
+     - ./apps:/var/www/html/apps
+     - ./web:/var/www/html/data
+     - ./config:/var/www/html/config
+     - "/etc/localtime:/etc/localtime:ro"
+
+volumes:
+  mysql_data:
+
+networks:
+  elk-net: 

@@ -1,0 +1,13 @@
+cluster.name: "elk-lab"
+node.name: "docker-elk01"
+network.host: 0.0.0.0
+
+xpack.license.self_generated.type: basic
+xpack.monitoring.enabled: true
+xpack.security.enabled: false
+xpack.watcher.enabled: false
+xpack.ml.enabled: false
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+http.cors.allow-headers: "Authorization"

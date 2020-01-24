@@ -1,0 +1,51 @@
+#version: '3.3'
+services:
+
+  es01:
+    image: elasticsearch:7.2.0
+    container_name: elastic01
+    environment:
+      ES_JAVA_OPTS: '-Xms256m -Xmx256m'
+      network.bind_host: 0.0.0.0
+      network.host: 0.0.0.0
+      discovery.type: single-node
+    volumes:
+      - elkdata:/usr/share/elasticsearch/data
+      - ./elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      - ./elastic-certificates.p12:/usr/share/elasticsearch/config/
+    ports:
+      - 9200:9200
+      - 9300:9300
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 262144
+        hard: 262144
+    mem_limit: 1g
+
+  kibana:
+    image: kibana:7.2.0
+    container_name: kibana01
+    environment:
+      - SERVER_HOST=0.0.0.0
+    volumes:
+      - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    ports:
+      - 5601:5601
+
+#  headPlugin:
+#    image: mobz/elasticsearch-head:5
+#    container_name: head_540
+#    ports:
+#      - 9100:9100
+
+volumes:
+  elkdata:
+    driver: local
+
+network:
+    external:
+        name: elk-net
+
