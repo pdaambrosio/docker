@@ -1,0 +1,2000 @@
+#1574880186
+wget https://sourceforge.net/projects/davmail/files/davmail/5.4.0/davmail_5.4.0-3135-1_all.deb/download
+#1574881563
+pwd
+#1574881566
+cd Downloads/
+#1574881568
+https://sourceforge.net/projects/davmail/files/davmail/5.4.0/davmail_5.4.0-3135-1_all.deb/download
+#1574881575
+wget https://sourceforge.net/projects/davmail/files/davmail/5.4.0/davmail_5.4.0-3135-1_all.deb/download
+#1574886664
+wget https://sourceforge.net/projects/davmail/files/davmail/5.4.0/davmail_5.4.0-3135-1_all.deb
+#1574886687
+dpkg -i davmail_5.4.0-3135-1_all.deb
+#1574886691
+sudo dpkg -i davmail_5.4.0-3135-1_all.deb
+#1574886735
+cd
+#1574906242
+cd Desktop/
+#1574906256
+ls
+#1574906257
+cd
+#1574906262
+cd Área\ de\ Trabalho/
+#1574906269
+chmod 400 MyWebServers.txt 
+#1574906297
+ls
+#1574906309
+mv MyWebServers.txt MyWebServers.pem
+#1574906310
+ls -l
+#1574906339
+ssh -i MyWebServers.pem ec2-user@ec2-34-232-44-248.compute-1.amazonaws.com
+#1574907557
+cd Área\ de\ Trabalho/AWS/EC2/
+#1574907574
+ssh -i MyWebServers.pem ec2-user@ec2-52-91-89-16.compute-1.amazonaws.com
+#1574908278
+ssh -i MyWebServers.pem ec2-user@ec2-3-84-25-129.compute-1.amazonaws.com
+#1574912605
+gw9
+#1574912583
+gw8
+#1574946829
+ssh root@CGAZLCAPP0002
+#1574946832
+gw9
+#1574946644
+gw9
+#1574945970
+cat /sbin/resolvconf
+#1574946317
+gw9
+#1574945459
+ifconfig 
+#1574945527
+ip ro get 172.16.0.1
+#1574945618
+ping 8.8.8.8
+#1574945627
+sudo /etc/resolvconf/
+#1574945641
+sudo /etc/resolv.conf
+#1574945645
+sudo vim /etc/resolv.conf
+#1574945796
+ip ro get 172.16.0.1
+#1574945837
+tailf /var/log/kern.log
+#1574946768
+gw8
+#1574945907
+sudo vim /etc/resolv.conf 
+#1574946013
+route -n
+#1574946049
+ping 172.16.0.1
+#1574946057
+ifconfig 
+#1574946087
+ifdown br-03696c7e6c29
+#1574946090
+sudo ifdown br-03696c7e6c29
+#1574946102
+ifconfig 
+#1574946120
+ip ro get 172.16.0.1
+#1574946127
+ping 172.16.0.1
+#1574946134
+cat /etc/resolv
+#1574946136
+cat /etc/resolv.conf 
+#1574946140
+ping 172.16.0.1
+#1574946282
+gw8
+#1574958692
+gw9
+#1574973566
+gw8
+#1574989835
+aws
+#1574989846
+sudo aws s3 ls
+#1574989886
+ls .aws/
+#1574989892
+rm -rf .aws
+#1574989895
+sudo aws s3 ls
+#1574989966
+sudo aws configure
+#1574989979
+sudo aws s3 ls
+#1575029416
+gw9
+#1575029168
+gw8
+#1575050737
+gw9
+#1575055355
+cd Downloads/
+#1575055408
+sftp -i ~/.ssh/id_rsa_gateway _psantos@nibbler0009.linux.locaweb.com.br:/home/_psantos/index.txt .
+#1575296406
+gw8
+#1575297303
+gw9
+#1575375712
+sudo -i
+#1575402481
+whois tramontinastore.com
+#1575402487
+whois tramontinastore.com.br
+#1575402728
+ping tramontinastore.com
+#1575402835
+ping tramontinastore.com.br
+#1575376880
+gw8
+#1575559475
+sudo tailf /var/log/kern.log
+#1575559492
+sudo -i
+#1575579381
+gw8
+#1575638953
+gw9
+#1575638931
+gw9
+#1575758466
+gw-ed
+#1575777369
+gw8
+#1575820857
+gw-ed
+#1575856648
+cd /home/psantos/private/trainings/Curso Mairo Vergara 4.0/
+#1575856652
+cd /home/psantos/private/trainings/Curso\ Mairo\ Vergara\ 
+#1575856655
+cd /home/psantos/private/trainings/Curso\ Mairo\ Vergara\ 4.0/
+#1575856667
+find * -iname success
+#1575856672
+find  -iname success
+#1575856688
+find . -iname 'success'
+#1575856693
+find .* -iname 'success'
+#1575856706
+find  -iname success
+#1575856715
+ls
+#1575856723
+find / -iname success
+#1575856754
+pwd
+#1575856755
+cd
+#1575856785
+find /private/trainings/Curso\ Mairo\ Vergara\ 4.0 -iname success
+#1575856830
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname success
+#1575856847
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname Success
+#1575856849
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname Success*
+#1575856871
+find private/trainings/Curso\ Mairo\ Vergara\ 5.0/ -iname Success*
+#1575856876
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname Success
+#1575856881
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname Success*
+#1575856883
+find private/trainings/Curso\ Mairo\ Vergara\ 5.0/ -iname Success*
+#1575856885
+find private/trainings/Curso\ Mairo\ Vergara\ 4.0/ -iname Success*
+#1575867756
+gw8
+#1575867983
+gw9
+#1575911925
+gw8
+#1575915135
+gw8
+#1575917552
+yum install wine
+#1575917557
+sudo yum install wine
+#1575917566
+sudo apt-get install wine
+#1575917643
+ps aux |grep wine
+#1575917649
+sudo ps aux |grep wine
+#1575917699
+sudo apt-get install wine
+#1575917706
+sudo apt-get install playonlinux
+#1575959300
+gw8
+#1575959329
+gw9
+#1575968928
+gw8
+#1576065893
+ifconfig 
+#1576066521
+gw-ed
+#1576156259
+gw8
+#1576169915
+ifconfig 
+#1576174812
+gw8
+#1576198959
+gw9
+#1576249008
+ifconfig 
+#1576248960
+gw8
+#1576249875
+gw9
+#1576318162
+gw8
+#1576501569
+ls -l
+#1576512060
+df -h
+#1576512077
+free -gh
+#1576498757
+/etc/init.d/network-manager restart
+#1576498780
+/etc/init.d/network restart
+#1576498790
+sudo /etc/init.d/network-manager restart
+#1576498800
+sudo /etc/init.d/networking restart
+#1576498802
+sudo /etc/init.d/network-manager restart
+#1576499699
+ls
+#1576499704
+cd Locaweb/
+#1576499705
+ls
+#1576499713
+mkfir Kafka
+#1576499717
+mkdir Kafka
+#1576499719
+cd Kafka/
+#1576499767
+wget https://we.tl/t-MT6xGQI5TS
+#1576499774
+ls -l
+#1576499913
+ssh -i t-MT6xGQI5TS ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonws.com
+#1576499923
+ssh -i t-MT6xGQI5TS ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com
+#1576499943
+wget https://we.tl/t-MT6xGQl5TS
+#1576499950
+wget https://we.tl/t-MT6xGQi
+#1576499959
+wget https://we.tl/t-MT6xGQI5TS
+#1576499963
+ls
+#1576499966
+rm t-MT6xGQI5TS.1 
+#1576499971
+ls -l
+#1576499978
+chown 600 t-MT6xGQI5TS 
+#1576499982
+sudo chown 600 t-MT6xGQI5TS 
+#1576499986
+ls
+#1576499993
+ssh -i t-MT6xGQI5TS ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com
+#1576500037
+ls -l
+#1576500097
+ls
+#1576500103
+rm -rf t-MT6xGQI5TS
+#1576500104
+ls -l
+#1576500122
+sudo chmod 600 techrom_kafka.pem 
+#1576500132
+ssh -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com
+#1576500624
+ssh -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576506715
+screen -S Producer 
+#1576506728
+ssh -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576501074
+scp ssh -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com:/home/ec2-user/CursoKafka/*
+#1576501094
+scp ssh -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com:/home/ec2-user/CursoKafka/* .
+#1576501111
+scp -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com:/home/ec2-user/CursoKafka/* .
+#1576501151
+sftp -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com:/home/ec2-user/CursoKafka/
+#1576501168
+sftp -i techrom_kafka.pem ec2-user@ec2-3-15-4-55.us-east-2.compute.amazonaws.com
+#1576501245
+sftp -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com,3.14.143.244:/home/ec2-user/CursoKafka/
+#1576501254
+sftp -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com,3.14.143.244
+#1576501264
+sftp -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576538675
+ifconfig 
+#1576552269
+gw8
+#1576586383
+history 
+#1576586395
+ssh -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576586407
+cd Locaweb/Kafka/
+#1576586409
+ssh -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576598670
+netstat -ntpl
+#1576598365
+ssh -D 9000 -i 'techrom_kafka.pem'
+#1576598376
+#ssh -D 9000 -i techrom_kafka.pem
+#1576598403
+ssh -D 9000 -i techrom_kafka.pem ec2-user@ec2-3-14-143-244.us-east-2.compute.amazonaws.com
+#1576605134
+netstat -ntpl
+#1576605162
+ss -ntpl
+#1576605173
+ps aux |grep ssh
+#1576605180
+kill -9 1460
+#1576605184
+sudo kill -9 1460
+#1576605187
+kill -9 1460
+#1576605189
+ps aux |grep ssh
+#1576605206
+sudo -i
+#1576605421
+gw8
+#1576605445
+gw9
+#1576616218
+ssh diagnose debug reset
+#1576616243
+ssh 172.16.0.31
+#1576668807
+gw8
+#1576675148
+ls -l
+#1576675155
+docker ps
+#1576676286
+docker images ls
+#1576676292
+docker image ls
+#1576691340
+docker swarm init
+#1576691559
+docker info
+#1576691632
+docker node ls
+#1576692232
+docker swarm join-token worker 
+#1576692965
+docker swarm join-token manager
+#1576700124
+gw-ed
+#1576717067
+gw9
+#1576715234
+gw8
+#1576871858
+ping abasteceai.com.br
+#1576871864
+ping abasteceai
+#1576845569
+gw9
+#1576853352
+gw9
+#1576853404
+gw-ed
+#1576864161
+ls
+#1576864199
+ls private/trainings/Complete_Python/functions/
+#1576864203
+ls private/trainings/Complete_Python/
+#1576864210
+vim private/trainings/Complete_Python/while.py 
+#1577074084
+gw9
+#1577073834
+gw8
+#1577652309
+sudo -i
+#1577709277
+gw9
+#1577709301
+gw8
+#1577729579
+gw-ed
+#1577709178
+gw8
+#1577793133
+gw9
+#1577794182
+gw9
+#1577793024
+gw-ed
+#1577799530
+history |grep python
+#1577799544
+history 
+#1577799566
+history |grep pip
+#1577800036
+ipython
+#1577842535
+gw8
+#1577932384
+gw(
+#1577932387
+gw9
+#1577969253
+gw8
+#1577969177
+gw8
+#1577986937
+ipython
+#1578058285
+gw8
+#1578059217
+gw-ed
+#1578059817
+cd Desktop/
+#1578059818
+ls
+#1578059820
+cd
+#1578059829
+cd Área\ de\ Trabalho/
+#1578059829
+ls
+#1578059878
+sftp -i ~/.ssh/id_rsa_gateway _psantos@nibbler0009.linux.locaweb.com.br
+#1578064578
+cd
+#1578064580
+ipython
+#1578058256
+gw9
+#1578058231
+gw8
+#1578138839
+gw9
+#1578172336
+alias
+#1578172360
+ssh -i ~/.ssh/id_rsa_gateway _psantos@nibbler0002.linux.locaweb.com.br
+#1578180974
+alias
+#1578180988
+ssh -i ~/.ssh/id_rsa_gateway _psantos@nibbler0002.linux.locaweb.com.br
+#1578186242
+gw8
+#1578185226
+gw8
+#1578239379
+cat /etc/resolv
+#1578239382
+cat /etc/resolv.conf 
+#1578239388
+ping 8.8.8.8
+#1578239394
+ping google.com
+#1578239406
+ping google.com.br
+#1578239416
+cat /etc/resolv.conf 
+#1578239424
+vim /etc/resolv.conf 
+#1578239449
+sudo vim /etc/resolv.conf 
+#1578239470
+ping google.com.br
+#1578239478
+cat /etc/resolv.conf 
+#1578239480
+ping google.com.br
+#1578239482
+ping google.com
+#1578239494
+ping 8.8.8.8
+#1578239499
+ping google.com
+#1578239513
+ifconfig 
+#1578239583
+ping google.com
+#1578241219
+gw8
+#1578267325
+gw9
+#1578275182
+gw8
+#1578291877
+gw8
+#1578335495
+gw9
+#1578352578
+sudo -i
+#1578353064
+gw9
+#1578352978
+gw8
+#1578406804
+ipython
+#1578413129
+sudo -i]
+#1578414349
+ipython
+#1578403947
+gw9
+#1578407444
+sudo -i
+#1578412573
+history |grep dockerfile
+#1578412578
+sudo -i
+#1578422078
+cd private/trainings/Docker/
+#1578422078
+ls
+#1578422087
+pwd
+#1578422179
+ls -l
+#1578422211
+mkdir zerodocker
+#1578422215
+cd zerodocker/
+#1578422238
+git clone https://github.com/ricardoferreiracosta08/cursos-udemy.git
+#1578422244
+ls
+#1578422263
+ls cursos-udemy/curso-dockerdozero/secao07-Volumes/
+#1578422306
+ls cursos-udemy/curso-dockerdozero/secao10-DockerCompose/example-voting-app/
+#1578422316
+ls -l cursos-udemy/curso-dockerdozero/secao10-DockerCompose/example-voting-app/
+#1578423004
+cd ..
+#1578423007
+cd  zerodocker/
+#1578423008
+ls
+#1578423024
+cp -rf cursos-udemy/* .
+#1578423025
+ls
+#1578423027
+ls -l
+#1578423037
+mv cursos-udemy/* .
+#1578423046
+mv -r cursos-udemy/* .
+#1578423048
+ls -l
+#1578423061
+rm -rf curso-dockerdozero/
+#1578423062
+ls
+#1578423065
+Mão na massa - "Disponibilizando stack em microserviço usando Compose"
+#1578423066
+1 - Caso ainda não tenho feito, clone meu repositório público com todos os materiais utilizados nos meus cursos ministrados na Udemy:
+#1578423066
+git clone https://github.com/ricardoferreiracosta08/cursos-udemy.git
+#1578423066
+2 - Navegue em:
+#1578423066
+/curso-dockerdozero/secao10-DockerCompose/example-voting-app/
+#1578423066
+3 - Nesse diretório tem uma app de exemplo de microserviços configurada para compose. Sua stack é arquitetada da seguinte maneira:
+#1578423066
+Em resumo, essa app é:
+#1578423066
+Um aplicativo Web front-end em Python (Linux) ou ASP.NET Core (Windows) que permite votar entre duas opções (porta 5000)
+#1578423066
+Uma fila DB NoSQL Redis (Linux) ou NATS que coleta novos votos
+#1578423066
+Um worker do .NET Core, Java ou .NET Core 2.1 que consome votos e os armazena em…
+#1578423066
+Um banco de dados Postgres ou TiDB persistido por um volume Docker
+#1578423067
+Um aplicativo web Node.js ou ASP.NET Core SignalR que mostra os resultados da votação em tempo real (porta 5001)
+#1578423067
+4 - Para vê em execução, dentro desse diretório, execute o compose para Linux
+#1578423067
+docker-compose -f docker-compose.yml up
+#1578423067
+5 - Caso queira para Windows, execute:
+#1578423067
+docker-compose -f docker-compose-windows.yml up
+#1578423072
+ls
+#1578423076
+mv cursos-udemy/* .
+#1578423078
+ls
+#1578423083
+ls -l
+#1578423091
+ls curso-dockerdozero/
+#1578423102
+ls
+#1578423113
+mv curso-dockerdozero/* .
+#1578423115
+ls -l
+#1578423121
+rmdir curso-dockerdozero/
+#1578423123
+ls -l
+#1578423131
+rmdir cursos-udemy/
+#1578423136
+rm -rf cursos-udemy/
+#1578423138
+ls -l
+#1578423171
+vim readme.txt
+#1578423224
+ls -l
+#1578423231
+vim README.md 
+#1578427393
+ls
+#1578427398
+cd ..
+#1578427398
+ls
+#1578427402
+cd
+#1578427415
+sudp pip install virtualenv
+#1578427421
+sudo pip install virtualenv
+#1578427528
+cd private/trainings/Python_Network/
+#1578427530
+ls
+#1578427538
+mkdir dev
+#1578427577
+virtualenv dev/
+#1578427622
+source dev/bin/activate
+#1578427668
+pip list
+#1578428131
+pip install ipython
+#1578428909
+pip list
+#1578428928
+deactivate
+#1578428938
+pwd
+#1578428940
+cd
+#1578429372
+
+#1578429378
+pip list
+#1578430188
+deactivate
+#1578430231
+which python3
+#1578430257
+cd /home/psantos/private/trainings/Python_Network
+#1578430259
+ls
+#1578430274
+mkdir dev_py3
+#1578430321
+virtualenv --python='/usr/bin/python3' dev_py3
+#1578430356
+source dev_py3/bin/activate
+#1578430360
+pip list
+#1578430370
+pip install ipython
+#1578430385
+pip list
+#1578430392
+deativate
+#1578430397
+deactivate
+#1578430403
+cd
+#1578430791
+source /home/psantos/private/trainings/Python_Network/dev_py3/bin/activate
+#1578430797
+pip list
+#1578432520
+deactivate
+#1578448662
+source /home/psantos/private/trainings/Python_Network/dev_py3/bin/activate
+#1578448673
+cd /home/psantos/private/trainings/Python_Network/
+#1578448706
+vim geocoder.py
+#1578448894
+python3 geocoder.py 
+#1578448920
+vim geocoder.py
+#1578448963
+python3 geocoder.py 
+#1578448983
+vim geocoder.py
+#1578448993
+python3 geocoder.py 
+#1578448999
+vim geocoder.py
+#1578449015
+python3 geocoder.py 
+#1578449021
+ls
+#1578449048
+cp fopnp/py3/chapter01/search1.py .
+#1578449050
+ls 
+#1578449080
+vim search1.py 
+#1578449235
+python3 search1.py 
+#1578449248
+vim search1.py 
+#1578449276
+pip install geopy
+#1578449282
+python3 search1.py 
+#1578449294
+cat search1.py 
+#1578449312
+vim geocoder.py 
+#1578449437
+python3 geocoder.py 
+#1578449448
+vim geocoder.py 
+#1578449493
+python3 geocoder.py 
+#1578449504
+vim geocoder.py 
+#1578449520
+cat search1.py 
+#1578449535
+vim geocoder.py 
+#1578449571
+cat search1.py 
+#1578449574
+python3 geocoder.py 
+#1578449651
+cp fopnp/py3/chapter01/search2.py .
+#1578449653
+ls
+#1578449655
+vim search2.py 
+#1578450107
+python3 search2.py
+#1578450114
+vim search2.py 
+#1578450151
+deactivate
+#1578447825
+cd private/trainings/Python_Network/
+#1578447828
+ls
+#1578447916
+git clone https://github.com/brandon-rhodes/fopnp/tree/m/playground
+#1578448130
+git clone https://github.com/brandon-rhodes/fopnp.git
+#1578448139
+ls -l
+#1578448144
+ls -l fopnp/
+#1578448235
+cd
+#1578448342
+source private/trainings/Python_Network/dev_py3/bin/activate
+#1578448366
+pip install pygeocoder
+#1578448374
+ipython
+#1578450163
+deactivate
+#1578491955
+pip list
+#1578492160
+export PS1='\''\[\033[1;37m\][\[\033[0;34m\]\u\[\033[0;39m\]@\[\033[0;32m\]\h\[\033[1;37m\]][\[\033[1;33m\]\w\[\033[1;37m\]]\[\033[1;37m\]# \[\033[0;39m\]'\'''
+#1578492189
+PS1=\''\[\033[1;37m\][\[\033[0;34m\]\u\[\033[0;39m\]@\[\033[0;32m\]\h\[\033[1;37m\]][\[\033[1;33m\]\w\[\033[1;37m\]]\[\033[1;37m\]# \[\033[0;39m\]'\''
+
+
+export PS1=\''\[\033[1;37m\][\[\033[0;34m\]\u\[\033[0;39m\]@\[\033[0;32m\]\h\[\033[1;37m\]][\[\033[1;33m\]\w\[\033[1;37m\]]\[\033[1;37m\]# \[\033[0;39m\]'\''
+
+#1578492218
+export PS1='\''\[\033[1;37m\][\[\033[0;34m\]\u\[\033[0;39m\]@\[\033[0;32m\]\h\[\033[1;37m\]][\[\033[1;33m\]\w\[\033[1;37m\]]\[\033[1;37m\]# \[\033[0;39m\]'\'''
+#1578493711
+vim .bashrc 
+#1578493702
+bash
+#1578493825
+basj
+#1578493827
+bash
+#1578494276
+sudo -i
+#1578494421
+basj
+#1578494424
+bash
+#1578494431
+bash -rc
+#1578503811
+alias
+#1578503817
+gw2
+#1578503838
+vim .bashrc 
+#1578503885
+gw2
+#1578503889
+vim .bashrc 
+#1578503904
+gw2
+#1578503907
+vim .bashrc 
+#1578503927
+cd
+#1578503929
+gw2
+#1578491396
+gw8
+#1578518425
+sudo -i
+#1578519292
+ls -l
+#1578519303
+ls -l redis/
+#1578519339
+vim zookeeper/docker-compose.yml 
+#1578519369
+ls -l
+#1578519373
+ls haproxy/
+#1578519425
+history |grep 'docker run'
+#1578519437
+docker images
+#1578519476
+docker run -itd --name centos7 centos:7 
+#1578519479
+docker ps
+#1578519514
+docker exec centos7 bash
+#1578519531
+docker exec -it centos7 bash
+#1578519654
+docker ps
+#1578519666
+docker stop centos7 
+#1578519683
+docker ps
+#1578519688
+docker ps -a
+#1578519706
+docker rm centos7 
+#1578519708
+docker ps -a
+#1578519711
+docker ps
+#1578492239
+export PS1=\[\033[1;37m\][\[\033[0;34m\]\u\[\033[0;39m\]@\[\033[0;32m\]\h\[\033[1;37m\]][\[\033[1;33m\]\w\[\033[1;37m\]]\[\033[1;37m\]# \[\033[0;39m\]'\
+#1578492282
+export PS1="\[\e[0;32m\]\u\[\e[00m\]@\[\e[0;36m\]note\[\e[00m\]:\[\e[1;34m\]\w\[\e[00m\]$"
+#1578492441
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;36m\]note\[\e[00m\]:\[\e[1;34m\]\w\[\e[00m\]$"
+#1578492453
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;36m\]notebook\[\e[00m\]:\[\e[1;34m\]\w\[\e[00m\]$"
+#1578492478
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;31m\]notebook\[\e[00m\]:\[\e[1;34m\]\w\[\e[00m\]$"
+#1578493044
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;31m\]notebook\[\e[00m\]:\[\e[1;34m\]\W\[\e[00m\]$"
+#1578493051
+cd private/trainings/
+#1578493244
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;31m\]notebook\[\e[00m\]:[\[\e[1;34m\]\W\[\e[00m\]]$"
+#1578493252
+export PS1="\[\e[0;33m\]\u\[\e[00m\]@\[\e[0;31m\]notebook\[\e[00m\][\[\e[1;34m\]\W\[\e[00m\]]$"
+#1578493258
+pwd
+#1578493605
+cd
+#1578493611
+vim .bash
+#1578493617
+vim .bashrc 
+#1578493658
+vim /etc/profile
+#1578493682
+sudo vim /etc/profile
+#1578493803
+vim .bash
+#1578493806
+vim .bashrc 
+#1578493816
+sudo vim /etc/profile
+#1578493836
+sudo -i
+#1578493923
+sudo vim /etc/skel/.bashrc 
+#1578494301
+vim .bashrc 
+#1578494308
+bash
+#1578494358
+vim .bashrc 
+#1578494444
+sudo -i
+#1578494450
+ls -l
+#1578494463
+cd private/trainings/Python_Network/
+#1578494465
+ls
+#1578494483
+source dev_py3/bin/activate
+#1578494488
+pip list
+#1578494493
+ls
+#1578494497
+vim search1.py 
+#1578494506
+vim search2.py 
+#1578494644
+ipython
+#1578494733
+ls
+#1578494739
+python search1.py 
+#1578494744
+python search2.py 
+#1578496063
+cat geocoder.py 
+#1578496082
+vim geocoder.py 
+#1578496109
+cat geocoder.py 
+#1578496110
+ls -l
+#1578496121
+python3 geocoder.py 
+#1578496891
+cd ../Complete_Python/
+#1578496892
+ls
+#1578496905
+chmod +x *.py
+#1578496907
+ls
+#1578496913
+cat ball_rad.py 
+#1578496938
+cat while.py 
+#1578507353
+aws
+#1578507364
+deactivate
+#1578507366
+cd
+#1578507367
+aws
+#1578507387
+pip install awscli
+#1578507397
+aws
+#1578507404
+vim /home/psantos/.local/bin/aws
+#1578507444
+aws
+#1578507460
+pip install reinstall awscli
+#1578507468
+pip reinstall awscli
+#1578507471
+pip
+#1578507490
+pip install awcli
+#1578507501
+
+#1578507507
+pip install aws
+#1578507513
+aws
+#1578507542
+pip install SSL
+#1578507609
+pip install aws
+#1578508116
+ifconfig 
+#1578508123
+cat /etc/resolv
+#1578508126
+cat /etc/resolv.conf 
+#1578508137
+ping fabrica.locaweb.com.br
+#1578508811
+cd private/trainings/Python_Network/
+#1578513759
+ls
+#1578514246
+cat ../Complete_Python/while.py 
+#1578516320
+cat geocoder.py 
+#1578517896
+cd ../Docker/
+#1578517897
+ls -l
+#1578517921
+vim elastic/docker-compose.yml 
+#1578517996
+sudo -i
+#1578515908
+gw9
+#1578491905
+gw9
+#1578537408
+ls
+#1578537416
+cd private/trainings/Python_Network/
+#1578537420
+ls
+#1578537433
+source dev_py3/bin/activate
+#1578538102
+ls
+#1578538126
+cp fopnp/py3/chapter01/search3.py .
+#1578538131
+vim search3.py 
+#1578538156
+python3 search3.py 
+#1578538335
+cp fopnp/py3/chapter01/search4.py .
+#1578538339
+vim search4.py 
+#1578538382
+python search4.py 
+#1578539741
+deactivate
+#1578539749
+shutdown -h now
+#1578580231
+gw8
+#1578585195
+ping 8.8.8.8
+#1578590043
+gw8
+#1578580686
+gw9
+#1578590162
+gw8
+#1578600731
+gw2
+#1578603235
+cd Área\ de\ Trabalho/
+#1578603236
+ls
+#1578603254
+sftp -i ~/.ssh/id_rsa_gateway _psantos@nibbler0002.linux.locaweb.com.br
+#1578607086
+cd
+#1578607088
+gw2
+#1578610329
+cd Downloads/
+#1578610330
+ls
+#1578610337
+sftp -i ~/.ssh/id_rsa_gateway _psantos@nibbler0009.linux.locaweb.com.br
+#1578621167
+cd
+#1578621176
+sudo apt-get install fio
+#1578621203
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=test --bs=4k --iodepth=64 --size=4G --readwrite=randread
+#1578654670
+gw8
+#1578654645
+gw9
+#1578654692
+gw2
+#1578655636
+gw2
+#1578683781
+gw-ed
+#1578796183
+gw8
+#1578796237
+gw9
+#1578797028
+gw8
+#1578808988
+gw9
+#1578883619
+ping 8.8.8.8
+#1578889763
+gw9
+#1578889187
+gw8
+#1578931337
+gw9
+#1578931384
+ls
+#1578931405
+whois kmdevantagens.com.br
+#1578931416
+ping kmdevantagens.com.br
+#1578963478
+gw8
+#1578970392
+cd private/trainings/Python_Network/
+#1578970396
+ls
+#1578970418
+source dev_py3/bin/activate
+#1578970511
+vim getname.py
+#1578971075
+python3 getname.py 
+#1578971082
+vim getname.py
+#1578971092
+python3 getname.py 
+#1578971131
+ping
+#1578971135
+ping www.google.com/
+#1578971141
+python3 getname.py 
+#1578971264
+vim getname.py
+#1578971293
+python3 getname.py 
+#1578971393
+vim getname.py
+#1578971427
+python3 getname.py 
+#1578971452
+ls
+#1578971465
+chmod +x *.py
+#1578971467
+ls -l
+#1578971468
+s
+#1578971472
+ls
+#1578971475
+cat getname.py 
+#1578971516
+cat fopnp/py3/chapter01/getname.py 
+#1578971526
+cat getname.py 
+#1578972039
+shutdown -h now
+#1579007335
+gw8
+#1579007761
+sudo apt-get update && apt-get upgrade -y
+#1579007780
+sudo -i
+#1579008120
+gw9
+#1579011955
+ping  js.locaweb-net.locaweb.com.br
+#1579011959
+ping js.locaweb-net.locaweb.com.br
+#1579048890
+gw9
+#1579048821
+gw8
+#1579116974
+gw9
+#1579116977
+gw8
+#1579118148
+gw-ed
+#1579119749
+gw-ed
+#1579119757
+gw-unik
+#1579182364
+cd private/trainings/Complete_Python/
+#1579182365
+ls
+#1579182369
+ll
+#1579182384
+vim ball_rad.py 
+#1579182393
+vim break.py 
+#1579182435
+vim continue.py 
+#1579182466
+vim for2.py 
+#1579182485
+python for2.py 
+#1579182488
+vim for2.py 
+#1579182507
+vim for.py 
+#1579182515
+vim for3.py 
+#1579182539
+python for3.py 
+#1579182543
+python3 for3.py 
+#1579182570
+vim list.py 
+#1579182587
+python list.py 
+#1579182590
+python3 list.py 
+#1579182913
+vim teste01.py 
+#1579182932
+vim try_except.py 
+#1579183002
+s
+#1579183006
+ls
+#1579184056
+vim declarations/list2.py 
+#1579203332
+curl -o /etc/yum.repos.d/newrelic-infra.repo https://download.newrelic.com/infrastructure_agent/linux/yum/el/7/x86_64/newrelic-infra.repo
+#1579181988
+gw9
+#1579182015
+gw8
+#1579182067
+source private/trainings/Python_Network/dev_py3/bin/activate
+#1579182071
+pip list
+#1579182076
+ls
+#1579182087
+cd private/trainings/Python_Network/
+#1579182088
+ls
+#1579182104
+python3 getname.py 
+#1579182116
+vim getname.py 
+#1579181549
+sudo find / -iname rocket
+#1579181968
+gw8
+#1579267392
+gw9
+#1579267867
+sftp -i ~/.ssh/id_rsa_gateway _psantos@nibbler0009.linux.locaweb.com.br
+#1579267885
+ls
+#1579267898
+mv indices.txt Área\ de\ Trabalho/
+#1579283890
+source private/trainings/Python_Network/dev_py3/bin/activate
+#1579373729
+gw8
+#1579381158
+gw9
+#1579526834
+gw8
+#1579526881
+history 
+#1579526931
+sudo -i
+#1579526981
+gw8
+#1579634440
+ping dashboard.ed.locaweb.com.br
+#1579644860
+gw9
+#1579644966
+#yum remove MariaDB-client-10.2.30-1.el7.centos.x86_64 MariaDB-compat-10.2.30-1.el7.centos.x86_64 MariaDB-common-10.2.30-1.el7.centos.x86_64 MariaDB-server-10.2.30-1.el7.centos.x86_64
+#1579644981
+#yum install -y MariaDB-client-10.2.30-1.el7.centos.x86_64 MariaDB-compat-10.2.30-1.el7.centos.x86_64 MariaDB-common-10.2.30-1.el7.centos.x86_64 MariaDB-server-10.2.30-1.el7.centos.x86_64
+#1579650441
+gw8
+#1579701681
+gw9
+#1579786032
+gw8
+#1579872953
+history 
+#1579873103
+docker images
+#1579873145
+docker volume list
+#1579873457
+ls -l
+#1579873500
+sudo -i
+#1579885669
+cd ../Docker/
+#1579885670
+ls
+#1579885698
+git clone https://github.com/pdaambrosio/docker.git
+#1579885705
+ls
+#1579885714
+ls docker
+#1579885717
+ls docker/
+#1579885724
+cat docker
+#1579885730
+ls
+#1579885733
+ls -l docker
+#1579885740
+ls -lh docker
+#1579885742
+ls
+#1579885752
+mv docker arquivos/
+#1579885753
+ls
+#1579885756
+
+#1579885765
+git clone https://github.com/pdaambrosio/docker.git
+#1579885805
+ls
+#1579885808
+cd docker
+#1579885809
+ls
+#1579885811
+cd ..
+#1579885813
+cd docker
+#1579885814
+ls
+#1579885976
+cd ..
+#1579885977
+ls
+#1579886003
+cp -rf docker-compose2.yml docker/
+#1579886022
+cp -rf docker_file docker/
+#1579886095
+cat Docker-Swarm
+#1579886116
+cp -rf elastic docker
+#1579886128
+cp -rf flink docker
+#1579886143
+cp -rf kafka docker
+#1579886165
+cp -rf owncloud docker
+#1579886185
+cp -rf redis docker
+#1579886276
+cp -rf Site_Lab docker
+#1579886316
+cp -rf training2019 docker
+#1579886338
+cp -rf zookeeper docker
+#1579886340
+cd docker
+#1579886341
+ls
+#1579886554
+git add docker-compose2.yml docker_file elastic flink kafka owncloud redis Site_Lab training2019 zookeeper
+#1579886586
+git commit -m "Files docker LAB 24-01"
+#1579886669
+git commit --global pda.ambrosio@gmail.com -m "Files docker LAB 24-01"
+#1579886680
+git commit -m "Files docker LAB 24-01"
+#1579886688
+git commit --global "pda.ambrosio@gmail.com" -m "Files docker LAB 24-01"
+#1579886697
+git commit -m "Files docker LAB 24-01"
+#1579886717
+git push
+#1579886802
+ls
+#1579886836
+git push
+#1579886850
+ls
+#1579886856
+git add docker-compose2.yml docker_file elastic flink kafka owncloud redis Site_Lab training2019 zookeeper
+#1579886859
+git push
+#1579886877
+ls
+#1579887045
+rm README.md 
+#1579887046
+ls
+#1579887050
+git push
+#1579887060
+ls
+#1579887118
+git add docker-compose2.yml docker_file elastic flink kafka owncloud redis Site_Lab training2019 zookeeper
+#1579887129
+git commit -m "Files docker LAB 24-01"
+#1579887253
+git commit --global user.email "pda.ambrosio@gmail.com" -m "Files docker LAB 24-01"
+#1579887260
+git commit -m "Files docker LAB 24-01"
+#1579887280
+git config --global user.email "pda.ambrosio@gmail.com"
+#1579887282
+git commit -m "Files docker LAB 24-01"
+#1579887290
+git push
+#1579887889
+cd ..
+#1579887892
+docker pull jenkins
+#1579887938
+docker images
+#1579887952
+docker rmi jenkins:latest 
+#1579887974
+docker pull jenkins:2.60.3
+#1579888030
+docker images
+#1579888041
+docker pull jenkins:2.60.3-alphine
+#1579888052
+docker pull jenkins:2.60.3-alpine
+#1579888081
+docker images
+#1579888102
+docker rmi jenkins:2.60.3
+#1579888126
+mkdir docker/jenkins
+#1579888402
+docker run -itd --rm --name jk01 --net elk-net -p 8080:8080 -p 50000:50000 jenkins:2.60.3-alpine 
+#1579888409
+docker ps
+#1579889877
+docker exec -it jk01 cat /var/jenkins_home/secrets/initialAdminPassword
+#1579889945
+docker inspect jk01
+#1579890041
+docker inspect jk01 |grep elk-net
+#1579890129
+docker exec -it jk01 bash
+#1579890235
+docker ps
+#1579890309
+docker images
+#1579890840
+vim docker/docker-compose2.yml 
+#1579891997
+docker-compose -f docker/jenkins/jenkins-compose.yml down
+#1579892740
+sudo -i
+#1579893043
+history |grep docker-compose |grep down
+#1579893110
+vim docker/docker-compose2.yml 
+#1579893492
+docker-compose -f docker/jenkins/jenkins-compose.yml down -v
+#1579893530
+pwd
+#1579893548
+cd docker/jenkins/data/
+#1579893550
+pws
+#1579893552
+pwd
+#1579893560
+cd ../..
+#1579893563
+cd ..
+#1579893673
+ls -l docker/jenkins/data/
+#1579893680
+ls -l docker/jenkins/
+#1579893682
+ls -l docker/jenkins/data/
+#1579894230
+docker-compose -f docker/jenkins/jenkins-compose.yml down -v
+#1579894237
+vim docker/jenkins/jenkins-compose.yml
+#1579894511
+ls docker/jenkins/data/
+#1579895114
+docker-compose -f docker/jenkins/jenkins-compose.yml down -v
+#1579895121
+ls docker/jenkins/data/
+#1579895128
+cd docker/jenkins/data/
+#1579895134
+rm -rf *
+#1579895137
+ls
+#1579895150
+cd ..
+#1579895161
+vim docker/jenkins/jenkins-compose.yml
+#1579899670
+docker-compose -f docker/jenkins/jenkins-compose.yml down -v
+#1579899685
+cd docker
+#1579899688
+cd jenkins/data/
+#1579899689
+ls
+#1579899722
+git commit -m "Lab Jenkins"
+#1579899732
+cd ..
+#1579899748
+git add jenkins
+#1579899763
+ls -lh jenkins
+#1579899770
+su -sh jenkins
+#1579899774
+du -sh jenkins
+#1579899883
+git commit -m "Lab Jenkins"
+#1579899895
+git push 
+#1579900001
+history |grep git
+#1579900283
+ls
+#1579900288
+cd
+#1579900289
+ls
+#1579900302
+cd private/trainings/Python
+#1579900304
+ls
+#1579900308
+cd ..
+#1579900317
+git init Python
+#1579900327
+cd Python
+#1579900328
+ls
+#1579900354
+git commit -m "Python"
+#1579900374
+git add *
+#1579900376
+git commit -m "Python"
+#1579900400
+git push 
+#1579900534
+git create -d "Python"
+#1579900543
+git push 
+#1579900551
+git config --global user.email "pda.ambrosio@gmail.com"
+#1579900552
+git push 
+#1579900556
+git commit -m "Python"
+#1579900566
+ls -l
+#1579900682
+git remote add origin https://github.com/pdaambrosio/$python.git
+#1579900692
+git push 
+#1579900736
+git add .
+#1579900742
+git status
+#1579900756
+git commit -am "Python"
+#1579900792
+git push 
+#1579900862
+git commit -am "Python"
+#1579900868
+git push 
+#1579900875
+history |grep git
+#1579900891
+git remote add origin https://github.com/pdaambrosio/$python.git
+#1579900914
+cd
+#1579900928
+cd private/trainings/
+#1579900951
+cp -rf Python ../
+#1579900956
+ls ../
+#1579900979
+git clone git remote add origin https://github.com/pdaambrosio/$python.git
+#1579900991
+git clone https://github.com/pdaambrosio/python.git
+#1579901014
+ls
+#1579901018
+ls python/
+#1579901028
+mv Python/* python/
+#1579901031
+ls Python
+#1579901035
+rmdir Python
+#1579901042
+ls -lA Python
+#1579901052
+rm -rf Python
+#1579901054
+cd python/
+#1579901056
+ls
+#1579901063
+git add .
+#1579901075
+git commit -am "Python"
+#1579901080
+git push
+#1579872434
+cd private/trainings/Python_Network/
+#1579872461
+source dev_py3/bin/activate
+#1579872467
+ls -l
+#1579872808
+cat search4
+#1579872812
+cat search4.py 
+#1579901215
+deactivate 
+#1579901217
+cd
+#1579901251
+docker-compose -f private/trainings/Docker/docker/jenkins/jenkins-compose.yml down -v
+#1579872866
+source dev_py3/bin/activate
+#1579872870
+ipython
+#1579890888
+vim docker/jenkins/jenkins-compose.yml
+#1579891351
+docker ps
+#1579891360
+docker stop jk01
+#1579891372
+history |grep docker-compose
+#1579891409
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579891424
+docker-compose up -f docker/jenkins/jenkins-compose.yml .
+#1579891427
+docker-compose up -f docker/jenkins/jenkins-compose.yml
+#1579891437
+su -
+#1579891459
+sudo -i
+#1579891521
+docker-compose up -f docker/jenkins/jenkins-compose.yml .
+#1579891562
+docker-compose -f docker/jenkins/jenkins-compose.yml . up
+#1579891568
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579891579
+docker-compose -f docker/jenkins/jenkins-compose.yml . up
+#1579891586
+docker-compose -f docker/jenkins/jenkins-compose.yml. up
+#1579891642
+docker-compose -f docker/jenkins/jenkins-compose.yml . up
+#1579891645
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579891671
+vim /docker/jenkins/jenkins-compose.yml
+#1579891676
+vim docker/jenkins/jenkins-compose.yml
+#1579891690
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579892024
+docker-compose -d -f docker/jenkins/jenkins-compose.yml up
+#1579892045
+docker-compose -f docker/jenkins/jenkins-compose.yml up -d
+#1579892059
+docker-compose log
+#1579892063
+docker-compose logs
+#1579892069
+docker-compose -f docker/jenkins/jenkins-compose.yml logs
+#1579892075
+docker-compose -f docker/jenkins/jenkins-compose.yml logs -f
+#1579892154
+docker-compose -f docker/jenkins/jenkins-compose.yml ps
+#1579892165
+docker-compose -f docker/jenkins/jenkins-compose.yml exec bash
+#1579892213
+docker-compose -f docker/jenkins/jenkins-compose.yml exec jk01 bash
+#1579892268
+docker-compose -f docker/jenkins/jenkins-compose.yml ps
+#1579892287
+docker-compose -f docker/jenkins/jenkins-compose.yml jk01 exec sh
+#1579892290
+docker-compose -f docker/jenkins/jenkins-compose.yml jk01 exec
+#1579892293
+docker-compose -f docker/jenkins/jenkins-compose.yml jk01 exec bash
+#1579892315
+docker-compose -f docker/jenkins/jenkins-compose.yml bash
+#1579892324
+docker-compose ps
+#1579892330
+docker-compose -f docker/jenkins/jenkins-compose.yml ps 
+#1579892345
+docker-compose -f docker/jenkins/jenkins-compose.yml -it jk01 exec bash
+#1579892350
+docker-compose -f docker/jenkins/jenkins-compose.yml -it jk01 exec sh
+#1579892363
+docker-compose -f docker/jenkins/jenkins-compose.yml jk01 exec
+#1579892634
+docker-compose -f docker/jenkins/jenkins-compose.yml exec jk01 sh
+#1579892645
+docker-compose -f docker/jenkins/jenkins-compose.yml exec bash
+#1579892661
+docker-compose -f docker/jenkins/jenkins-compose.yml exec sh
+#1579892823
+cat docker/jenkins/jenkins-compose.yml 
+#1579892837
+docker-compose -f docker/jenkins/jenkins-compose.yml exec jenkins01 sh
+#1579892908
+docker-compose -f docker/jenkins/jenkins-compose.yml logs
+#1579892912
+docker-compose -f docker/jenkins/jenkins-compose.yml logs -f
+#1579892980
+docker-compose -f docker/jenkins/jenkins-compose.yml down
+#1579893078
+vim docker/jenkins/jenkins-compose.yml 
+#1579893216
+mkdir docker/jenkins/data
+#1579893235
+vim docker/jenkins/jenkins-compose.yml 
+#1579893433
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579893500
+vim docker/jenkins/jenkins-compose.yml 
+#1579893643
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579894281
+vim docker/jenkins/jenkins-compose.yml 
+#1579894355
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579894361
+vim docker/jenkins/jenkins-compose.yml 
+#1579894393
+docker network inspect elk-net 
+#1579894415
+vim docker/jenkins/jenkins-compose.yml 
+#1579894490
+docker-compose -f docker/jenkins/jenkins-compose.yml up
+#1579872403
+gw9
+#1579921981
+cd /home/psantos/Downloads/
+#1579922019
+sudo dpkg -i warsaw_setup_64.deb 
+#1579922288
+pwd
+#1579922291
+su -
+#1579922298
+sudo -i
+#1580128341
+gw8
+#1580128284
+gw8
+#1580128312
+gw9
+#1580223559
+ls
+#1580223583
+rm -rf davmail.log.*
+#1580223584
+ls
+#1580223594
+sudo rm -rf davmail.log.*
+#1580223600
+ls
+#1580223605
+cat test 
+#1580223611
+rm -rf test 
+#1580223612
+ls
+#1580223617
+cat file01
+#1580223619
+cat file02
+#1580223622
+cat file2
+#1580223633
+s
+#1580223634
+ls
+#1580223646
+sudo rm -rf file*
+#1580223647
+ls
+#1580223657
+ls PlayOnLinux\'s\ virtual\ drives
+#1580223664
+ls PlayOnLinux\'s\ virtual\ drives/default/
+#1580223671
+rmdir PlayOnLinux\'s\ virtual\ drives/default/
+#1580223673
+ls PlayOnLinux\'s\ virtual\ drives/default/
+#1580223677
+rmdir PlayOnLinux\'s\ virtual\ drives
+#1580223681
+rmdir PlayOnLinux\'s\ virtual\ drives/
+#1580223684
+ls
+#1580223687
+rm PlayOnLinux\'s\ virtual\ drives/
+#1580223691
+rm -rf PlayOnLinux\'s\ virtual\ drives/
+#1580223693
+ls
+#1580223696
+sudo rm -rf PlayOnLinux\'s\ virtual\ drives/
+#1580223697
+ls
+#1580223701
+ls -l
+#1580223729
+ls -l RITM0257311/
+#1580223737
+sudo rm -rf RITM0257311
+#1580223738
+ls -l
+#1580223745
+history |grep ssj
+#1580223747
+history |grep ssh
+#1580223828
+ssh -i Área\ de\ Trabalho/AWS/EC2/MyWebServers.pem ec2-user@ec2-52-205-166-201.compute-1.amazonaws.com
+#1580223966
+ifconfig 
+#1580223973
+ip addr
+#1580224250
+ssh -i Área\ de\ Trabalho/AWS/EC2/MyWebServers.pem ec2-user@ec2-52-205-166-201.compute-1.amazonaws.com
+#1580234352
+sudo apt install pavucontrol 
+#1580234383
+sudo /lib/systemd/systemd-sysv-install enable warsaw
+#1580234401
+sudo apt remove warsaw
+#1580234412
+sudo apt install pavucontrol 
+#1580234439
+apt install pavucontrol 
+#1580234445
+sudo -i
+#1580215650
+gw8
+#1580316995
+gw9
+#1580321684
+cd private/trainings/Python_Network/
+#1580321685
+ls
+#1580321702
+source dev_py3/bin/activate
+#1580321706
+pip list
+#1580321713
+pip install boto3
+#1580321727
+pip install --upgrade pip
+#1580321744
+ipython
+#1580322396
+aws configure
+#1580322404
+pip list
+#1580322466
+pip install awscli
+#1580322827
+aws configure
+#1580322842
+ls -l /home/psantos/.local/bin/aws
+#1580322872
+pip list
+#1580322995
+curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+#1580323001
+ls
+#1580323010
+unzip awscliv2.zip
+#1580323012
+ls
+#1580323021
+sudo ./aws/install
+#1580323043
+aws2 --version
+#1580323050
+aws configure
+#1580323063
+vim /home/psantos/.local/bin/aws
+#1580323093
+aws
+#1580323143
+pip3 install --upgrade --user awscli
+#1580323151
+pip3 install --upgrade awscli
+#1580323180
+aws --version
+#1580323201
+pip3 install awscli.clidriver
+#1580323210
+pip3 install OpenSSL.SSL
+#1580323215
+pip list
+#1580318343
+vim watermaek
+#1580318349
+vim watermark
+#1580319437
+ls
+#1580319453
+mv watermark Locaweb/IPIR/
+#1580319455
+s
+#1580319457
+ll
+#1580319458
+ls
+#1580319466
+sudo -i
