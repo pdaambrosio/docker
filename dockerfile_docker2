@@ -4,3 +4,18 @@ yum install -y yum-utils device-mapper-persistent-data lvm2 vim
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum install docker-ce docker-ce-cli containerd.io
 yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
+
+
+curl -XPOST $HOSTNAME:9200/_cluster/reroute?pretty -d '{"commands":[{"allocate_stale_primary":{"index":"graylog_90","node":"unikldlog0001","shard":0,"accept_data_loss":true}}]}'
+
+
+time curl -XPOST $HOSTNAME:9200/pesquisa-2019.05.02/_rollover/_forcemerge?max_num_segments=1&pretty -H 'Content-Type: application/json'
+
+
+curl -XPUT '$HOSTNAME:9200/pesquisa-2019.05.02-new?pretty' -H 'Content-Type: application/json' -d'{ "settings" : {"index" : {"number_of_shards" : 1}}}'
+
+
+
+curl -XPOST $HOSTNAME:9200/_reindex?pretty -H 'Content-Type: application/json' -d' {"conflicts": "proceed", "source": {"index": "pesquisa-2019.05.03"},"dest": {"index":"pesquisa-2019.05.03-new","op_type":create"}}
+
+curl -XPOST $HOSTNAME:9200/_reindex?pretty -H 'Content-Type: application/json' -d '{"conflicts":"proceed","source":{index":"pesquisa-2019.05.03"},"dest":{"index":"pesquisa-2019.05.03-new","op_type": "create"}}'
