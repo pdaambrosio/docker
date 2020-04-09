@@ -1,5 +1,0 @@
-FROM debian:8.11
-RUN apt-get update && apt-get -y install build-essential
-COPY hello.c /
-RUN make hello
-CMD /hello
