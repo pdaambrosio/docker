@@ -1,0 +1,4 @@
+FROM debian:8.11
+RUN apt-get update && apt-get install figlet -y
+ENTRYPOINT ["figlet", "-f", "script"]
+CMD ["hello world!!! WORLD"]
